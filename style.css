@@ -66,3 +66,23 @@ footer {
     margin-top: 2rem;
 }
 
+.about-container {
+    display: flex;
+    align-items: center;  /* Aligns text and image vertically */
+    justify-content: center; /* Centers the content horizontally */
+    max-width: 900px; /* Sets a max width for the content */
+    margin: 0 auto; /* Centers the container on the page */
+    padding: 2rem; /* Adds spacing around the content */
+}
+
+.text-content {
+    max-width: 60%;
+    text-align: left;
+}
+
+.profile-image {
+    max-width: 30%;
+    height: auto;
+    margin-left: 2rem;
+}
+
