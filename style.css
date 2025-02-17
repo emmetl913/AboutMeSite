@@ -44,14 +44,15 @@ main {
 p {
     font-size: larger;
 }
-p.justified-left {
-    text-align: left;
-    max-width: 60%;
-    display: inline-block;
-    vertical-align: middle;
-}
 
 img.right-aligned {
+    max-width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2rem;
+}
+
+img.left-aligned {
     max-width: 35%;
     display: inline-block;
     vertical-align: middle;
@@ -75,14 +76,20 @@ footer {
     padding: 2rem; /* Adds spacing around the content */
 }
 
-.text-content {
+.text-content-left {
     max-width: 60%;
-    text-align: left;
+    text-align: center;
+}
+
+.text-content-right {
+    max-width: 60%;
+    text-align: center;
 }
 
 .profile-image {
     max-width: 30%;
     height: auto;
     margin-left: 2rem;
+    margin-right: 2rem;
 }
 
