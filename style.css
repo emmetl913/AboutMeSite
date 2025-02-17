@@ -76,15 +76,11 @@ footer {
     padding: 2rem; /* Adds spacing around the content */
 }
 
-.text-content-left {
+.text-content {
     max-width: 60%;
     text-align: center;
 }
 
-.text-content-right {
-    max-width: 60%;
-    text-align: center;
-}
 
 .profile-image {
     max-width: 30%;
